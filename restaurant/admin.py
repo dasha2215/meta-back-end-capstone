@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Booking, Menu
 
-# Register your models here.
+# Register with the custom admin class
+admin.site.register(Booking)
+admin.site.register(Menu)
